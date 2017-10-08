@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.css"/>
+
+    <title>An HTML + CSS + JS Demo</title>
+</head>
+<body>
+<section class="container">
+    <h1>Age Calculator
+        <small>An HTML + CSS + JS Demo</small>
+    </h1>
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+            <div class="well well-lg text-center">
+                <p class="lead">
+                    What year were you born?
+                </p>
+                <input type="number" id="yob" class="input-lg" placeholder="Enter Year of Birth">
+                <hr/>
+                <button id="process-btn" class="btn-block btn-lg btn-success">
+                    Process
+                </button>
+                <hr/>
+                <p id="txt-output" class="text-danger lead"></p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
